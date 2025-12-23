@@ -5,17 +5,19 @@
 flowchart TD
     A@{ shape: circle, label: "Start" } -->C
 
-    C@{ shape: lean-r, label: "Input : Angka" } --> E
+    C@{ shape: lean-r, label: "Input : Angka" } --> Z
 
-    E@{ shape: diamond, label: "Input dibagi 2 = 0" } 
+    Z@{ shape: rect, label: "masukkan angka ke dalam input" } -->E
+
+    E@{ shape: diamond, label: "Input dibagi 2 == 0" } 
 
     E -- YA --> G
 
     E -- TIDAK --> F
 
-    G@{ shape: rect, label: "angka genap" } -->|simpan ke dalam| H
+    G@{ shape: lean-r, label: "angka genap" } -->|simpan ke dalam| H
 
-    F@{ shape: rect, label: "angka ganjil" } -->|simpan ke dalam| I
+    F@{ shape: lean-r, label: "angka ganjil" } -->|simpan ke dalam| I
 
     H@{ shape: lean-r, label: "output: bilangan genap"} --> B
 
