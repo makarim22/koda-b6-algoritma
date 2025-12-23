@@ -13,9 +13,9 @@ flowchart TD
 
     E -- TIDAK --> F
 
-    G@{ shape: rect, label: "angka genap" } --> H
+    G@{ shape: rect, label: "angka genap" } -->|simpan ke dalam| H
 
-    F@{ shape: rect, label: "angka ganjil" } --> I
+    F@{ shape: rect, label: "angka ganjil" } -->|simpan ke dalam| I
 
     H@{ shape: lean-r, label: "output: bilangan genap"} --> B
 
