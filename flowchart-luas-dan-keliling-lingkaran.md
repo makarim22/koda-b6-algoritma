@@ -10,8 +10,8 @@ flowchart TD
 
  C -- FALSE --> F
 
- E@{ shape: lean-r, label: "phi = 22/7"} --> G 
- F@{ shape: lean-r, label: "phi = 3.14"} --> H
+ E@{ shape: rect, label: "phi = 22/7"} --> G 
+ F@{ shape: rect, label: "phi = 3.14"} --> H
 
  G@{ shape: rect, label: "x = phi * r * r"} --> A1
  H@{ shape: rect, label: "x = phi * r * r"} --> B1
@@ -19,14 +19,15 @@ flowchart TD
  A1@{ shape: rect, label: "k = 2 * phi * r"} --> L
  B1@{ shape: rect, label: "k = 2 * phi * r"} --> M
 
- L@{ shape: lean-r, label: output : "luas lingkaran adalah" , x} --> O
- M@{ shape: lean-r, label: output : "luas lingkaran adalah" , x} --> P
+ L@{ shape: lean-r, label: output : `"luas lingkaran adalah" , x`} --> O
+ M@{ shape: lean-r, label: output : `"luas lingkaran adalah" , x`} --> P
 
- O@{ shape: lean-r, label: output : "keliling lingkaran adalah" , k} --> Z
- P@{ shape: lean-r, label: output : "keliling lingkaran adalah" , k} --> Z
+ O@{ shape: lean-r, label: output : `"keliling lingkaran adalah" , k`} --> Z
+ P@{ shape: lean-r, label: output : `"keliling lingkaran adalah" , k`} --> Z
 
  Z@{ shape: circle, label: "Stop" } 
 ```
+
 
 
 
