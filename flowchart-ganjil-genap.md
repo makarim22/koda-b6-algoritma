@@ -9,7 +9,7 @@ flowchart TD
 
     Z@{ shape: rect, label: "masukkan angka ke dalam input" } -->E
 
-    E@{ shape: diamond, label: "Angka % 2 == 0" } 
+    E@{ shape: diamond, label: "sisa hasil pembagian angka dengan 2 adalah nol " } 
 
     E -- YA --> G
 
@@ -28,4 +28,5 @@ flowchart TD
     B@{ shape: circle, label: "Stop" }
 
 ```
+
 
