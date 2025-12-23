@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
  A@{ shape: circle, label: "Start" } --> B
 
@@ -25,3 +26,4 @@ flowchart TD
  P@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Z
 
  Z@{ shape: circle, label: "Stop" } 
+```
