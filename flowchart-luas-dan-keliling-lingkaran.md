@@ -22,10 +22,12 @@ flowchart TD
  L@{ shape: lean-r, label: "output = luas lingkaran adalah x"} --> O
  M@{ shape: lean-r, label: "output = luas lingkaran adalah x"} --> P
 
- O@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Q
- P@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> R
+ O@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Z
+ P@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Z
 
+ Z@{ shape: circle, label: "Stop" } 
 
 
 
 ```
+
