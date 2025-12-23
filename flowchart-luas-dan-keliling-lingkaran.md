@@ -12,11 +12,11 @@ flowchart TD
  E@{ shape: rect, label: "phi = 22/7" } --> G 
  F@{ shape: rect, label: "phi = 3.14" } --> H
 
- G@{ shape: rect, label: "Luas: x = phi * r * r" } --> A1
- H@{ shape: rect, label: "Luas: x = phi * r * r" } --> B1
+ G@{ shape: rect, label: "x = phi * r * r" } --> A1
+ H@{ shape: rect, label: "x = phi * r * r" } --> B1
 
- A1@{ shape: rect, label: "Keliling: k = 2 * phi * r" } --> L
- B1@{ shape: rect, label: "Keliling: k = 2 * phi * r" } --> M
+ A1@{ shape: rect, label: "k = 2 * phi * r" } --> L
+ B1@{ shape: rect, label: "k = 2 * phi * r" } --> M
 
  L@{ shape: lean-r, label: "Output: \"luas lingkaran adalah\" + x" } --> O
  M@{ shape: lean-r, label: "Output: \"keliling lingkaran adalah\" + k" } --> P
@@ -26,6 +26,7 @@ flowchart TD
 
  Z@{ shape: circle, label: "Stop" } 
 ```
+
 
 
 
