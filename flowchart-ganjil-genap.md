@@ -5,9 +5,7 @@
 flowchart TD
     A@{ shape: circle, label: "Start" } -->C
 
-    C@{ shape: lean-r, label: "Input : Angka" } --> Z
-
-    Z@{ shape: rect, label: "masukkan angka ke dalam input" } -->E
+    C@{ shape: lean-r, label: "Input : Angka" } --> E
 
     E@{ shape: diamond, label: "Angka % 2 == 0" } 
 
@@ -28,6 +26,7 @@ flowchart TD
     B@{ shape: circle, label: "Stop" }
 
 ```
+
 
 
 
