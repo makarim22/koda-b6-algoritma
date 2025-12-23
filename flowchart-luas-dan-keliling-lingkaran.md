@@ -2,7 +2,7 @@
 flowchart TD
  A@{ shape: circle, label: "Start" } --> B
 
- B@{ shape: lean-r, label: "Input: r (jari-jari)" } --> C
+ B@{ shape: lean-r, label: "Input: r" } --> C
 
  C@{ shape: diamond, label: "r % 7 == 0?" }
 
@@ -26,6 +26,7 @@ flowchart TD
 
  Z@{ shape: circle, label: "Stop" } 
 ```
+
 
 
 
