@@ -20,12 +20,13 @@ flowchart TD
  B1@{ shape: rect, label: "keliling: k = 2 * phi * r"} --> M
 
  L@{ shape: lean-r, label: "output = 'luas lingkaran adalah x'"} --> O
- M@{ shape: lean-r, label: "output = luas lingkaran adalah x"} --> P
+ M@{ shape: lean-r, label: "output = 'luas lingkaran adalah x'"} --> P
 
- O@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Z
- P@{ shape: lean-r, label: "output = keliling lingkaran adalah k"} --> Z
+ O@{ shape: lean-r, label: "output = 'keliling lingkaran adalah k'"} --> Z
+ P@{ shape: lean-r, label: "output = 'keliling lingkaran adalah k'"} --> Z
 
  Z@{ shape: circle, label: "Stop" } 
 ```
+
 
 
