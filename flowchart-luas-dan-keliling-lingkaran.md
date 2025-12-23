@@ -16,8 +16,8 @@ flowchart TD
  G@{ shape: rect, label: "luas: x = phi * r * r"} --> A1
  H@{ shape: rect, label: "luas: x = phi * r * r"} --> B1
 
- A1@{ shape: lean-r, label: "keliling: k = 2 * phi * r"} --> L
- B1@{ shape: lean-r, label: "keliling: k = 2 * phi * r"} --> M
+ A1@{ shape: rect, label: "keliling: k = 2 * phi * r"} --> L
+ B1@{ shape: rect, label: "keliling: k = 2 * phi * r"} --> M
 
  L@{ shape: lean-r, label: "output = luas lingkaran adalah x"} --> O
  M@{ shape: lean-r, label: "output = luas lingkaran adalah x"} --> P
@@ -30,4 +30,5 @@ flowchart TD
 
 
 ```
+
 
