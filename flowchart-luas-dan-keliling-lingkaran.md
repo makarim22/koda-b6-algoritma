@@ -10,8 +10,8 @@ flowchart TD
 
  C -- FALSE --> F
 
- E@{ shape: lean-r, label: "phi = 22/7"} -->|gunakan nilai 22/7| G 
- F@{ shape: lean-r, label: "phi = 3.14"}--> |gunakan nilai 3.14| H
+ E@{ shape: lean-r, label: "phi = 22/7"} --> |gunakan nilai 22/7| G 
+ F@{ shape: lean-r, label: "phi = 3.14"} --> |gunakan nilai 3.14| H
 
  G@{ shape: rect, label: "luas: x = phi * r * r"} --> A1
  H@{ shape: rect, label: "luas: x = phi * r * r"} --> B1
@@ -30,6 +30,7 @@ flowchart TD
 
 
 ```
+
 
 
 
