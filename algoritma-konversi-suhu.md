@@ -22,7 +22,7 @@ flowchart TD
     D@{ shape: rect, label: "Kelvin = Celcius + 273.15" }
     E@{ shape: rect, label: "Fahrenheit = (Celcius * 9/5) + 32" }    
    
-    F@{ shape: diamond, label: "Pilih satu: Reamur, Kelvin, atau Fahrenheit?" } 
+    F@{ shape: diamond, label: "Reamur ||Kelvin || Fahrenheit" } 
 
     X@{ shape: lean-r, label: "Output: \"Suhu dalam Reamur adalah\" , Reamur" }
     Y@{ shape: lean-r, label: "Output: \"Suhu dalam Kelvin adalah\" , Kelvin" }
@@ -37,3 +37,4 @@ flowchart TD
  
 
 ```
+
