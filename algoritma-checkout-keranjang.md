@@ -16,3 +16,22 @@
 12. lanjutkan ke tahap pembayaran
 13. Selesai
 
+```mermaid
+flowchart TD
+ A@{ shape: circle, label: "Start" } --> B
+ B@{ shape: lean-r, label: "Input: product" } --> C
+ C@{ shape: rect, label: "Keranjang += product" } --> D
+
+ D@{ shape: diamond, label: "apakah sudah dibayar?"} -->|FALSE| E
+
+ D -- TRUE --> F
+
+ E@{ shape: lean-r, label: "Output: \"pesanan belum dibayar\" "} --> D
+
+ F@{ shape: rect, label: "keranjang = null" } --> G
+
+ G@{ shape: lean-r, label: "Output: \"Keranjang dikosongkan\" "} --> H
+
+  H@{ shape: circle, label: "Stop" } 
+
+```
