@@ -13,4 +13,6 @@
 9. apabila stok tidak tersedia, tampilkan pesan, "produk tidak tersedia"
 10. tanyakan kepada user apakah ingin melanjutkan checkout
 11. apabila user menyatakan bersedia, lanjutkan ke tahap selanjutnya
-12. lanjutkan ke tahap pembayaran 
+12. lanjutkan ke tahap pembayaran
+13. Selesai
+
